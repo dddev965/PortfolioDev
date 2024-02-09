@@ -1,0 +1,38 @@
+.email{
+    width: 40px;
+    min-width: 218px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+a{
+    text-decoration: none;
+}
+}
+
+.container-fluid{
+    // height: 50vh;
+    // border: 1px solid red;
+    // margin: 50% 0px;
+    padding: 10% 10%;
+    width: 100%;
+    // max-width: 1000px;
+    // min-width: 899px;
+
+    ul{
+        margin-top: 10%;
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        flex-wrap: wrap;
+    
+        li{
+            margin-right: 4%
+        }
+        li >
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
