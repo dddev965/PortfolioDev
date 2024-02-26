@@ -4,10 +4,11 @@ import { FooterComponent } from '../footer/footer.component';
 import { HomeComponent } from '../home/home.component';
 import { AboutMeComponent } from '../about-me/about-me.component';
 import { ExperienceComponent } from '../experience/experience.component';
+import { ProjectComponent } from '../project/project.component';
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [NgbScrollSpyModule,FooterComponent,HomeComponent,AboutMeComponent,ExperienceComponent],
+  imports: [NgbScrollSpyModule,FooterComponent,HomeComponent,AboutMeComponent,ExperienceComponent,ProjectComponent],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss'
 })

@@ -14,7 +14,7 @@
           <a class="nav-link"[ngbScrollSpyItem]="[spy, 'experience']" >Experience</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Projects</a>
+          <a class="nav-link" [ngbScrollSpyItem]="[spy, 'project']">Projects</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" [ngbScrollSpyItem]="[spy, 'contact']">Contact</a>
@@ -28,6 +28,7 @@
   <app-home  ngbScrollSpyFragment="home"></app-home>
   <app-about-me ngbScrollSpyFragment="aboutme"></app-about-me>
   <app-experience ngbScrollSpyFragment="experience"></app-experience>
+  <app-project  ngbScrollSpyFragment="project"></app-project>
   <app-footer ngbScrollSpyFragment="contact"></app-footer>
 
 
